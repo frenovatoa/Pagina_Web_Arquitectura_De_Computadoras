@@ -1,0 +1,377 @@
+/* ---------------------------------------------------------------------------
+
+	Esta hoja de estilo tiene el objetivo de contribuir a darle formato 
+	a mis proyectos de HTML para la página web de la asignatura Arquitectura 
+	de Computadoras, impartida por el Ing. Miguel Maldonado en el ITS.
+	Autor: Luis Felipe Renovato Avila.
+
+--------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Fondos.                                             */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+body.fondoAzul {
+	/* Cargar el fondo */
+	background-image: url("../Media/Images/Diseno_Del_Sitio/Fondo_Del_Sitio.jpg");
+	/* Fondo estático */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat: no-repeat; 
+	/* Cambiar tamaño del fondo */
+	background-size: 100%;
+	/* Ancho del contenido de la página */
+	/* width: 70%; */
+	/* Margen alrededor del contenido */
+	/* margin: auto; */
+	/* Fuente por default */
+	font-family: "Verdana";
+	/* Justificar el texto */
+	text-align: justify;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Divs para la maquetación web.                       */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+
+/* Para el encabezado */
+div.header {
+	/* Imagen de fondo */
+	background: url("../Media/Images/Diseno_Del_Sitio/Fondo_Encabezado.jpg");
+	/* Escalar la imagen lo mas que sea posible sin recortarla, otra opción es el cover */
+	background-size: contain;
+	/* Borde circular */
+	border-radius: 5px;
+	/* Ancho */
+	height: 100px;
+	/* Alejar las letras del titulo del div */
+	padding-top: 20px;
+}
+
+/* Para el menú de sitios */
+div.datos {
+	background-color: #027476;
+	border-radius: 5px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+}
+
+/* Para contener mis datos personales */
+div.sitios {
+	background-color: #027476;
+}
+
+/* Para el navegador */
+
+div.navegador {
+	/* Color de fondo */
+	background-color: #C9F7DD;
+	/* Ancho */
+	width: 300px;
+	/* Alto */
+	height: 100%;
+	/* Borde circular */
+	border-radius: 5px;
+	/* Márgen de arriba para acomodar el div y no quede muy pegado con otros divs */
+	margin-top: 7.5px;
+	/* Margen de la derecha */
+	margin-right: 7.5px;
+	/* Alejar las letras del div */
+	padding: 1px;
+	/* Es poscionado como un elemento normal, en las posiciones indicadas */
+	position: relative; 
+	/* Alinear el texto a la izquierda */
+	text-align: left;	
+}
+
+/* Para el contenido */
+div.contenido {
+	/* Color de fondo */
+	background-color: #ECF5FF;
+	/* Borde circular */
+	border-radius: 5px;
+	/* Márgen de arriba y abajo para acomodar el div y no quede muy pegado con otros divs */
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	/* Alejar las letras del div */
+	padding: 20px;
+	/* Es poscionado como un elemento normal, en las posiciones indicadas */	
+	position: relative;
+}
+
+/* Para el contenido de la introducción y anexos */
+div.contenidoIntr {
+	/* Color de fondo */
+	background-color: #ECF5FF;
+	/* Borde circular */
+	border-radius: 5px;
+	/* Márgenes para acomodar el div y no quede muy pegado con otros divs */
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 170px;
+	margin-right: 170px;
+	/* Alejar las letras del div */
+	padding: 20px;
+	/* Es poscionado como un elemento normal, en las posiciones indicadas */	
+	position: relative;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene elemntos p (párrafos).                              */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+
+/* Para el titulo del header */
+p.tituloHeader {
+	color: white;
+	font-family: "Press Start 2P";
+	text-align: center;
+	font-size: 290%;
+	margin: 0;
+}
+
+/* Para los hipervínculos a la introducción y unidades */
+p.sitiosHeader {
+	color: white;
+	font-family: 'Orbitron';
+	text-align: center;
+	font-size: 150%;
+	margin: 0;
+}
+
+/* Para mis datos personales */
+p.datosFooter {
+	color: white;
+	font-family: 'Orbitron';
+	text-align: center;
+	font-size: 125%;
+	margin: 0;
+}
+
+/* Para el pie de imágenes */
+p.pieImagen {
+	line-height: 175%;
+	text-align: center;
+	font-style: italic;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene elemntos a (hyperlinks).                            */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+/* Solamente a los links del elemento menu se les asignará este estilo */
+#Sitios a {
+	color: white;
+	/* Quitar el subrayado a los links */
+	text-decoration: none; 
+}
+
+/* Estilo para los links en el navegador */
+a.links {
+	color: black;
+	/* Quitar el subrayado a los links */
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Titulos y Subtitulos                                */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+
+/* Título de la página */
+h1.heading1 {
+	color: black;
+	font-size: 3.5em;
+	font-family: "Georgia Pro";
+	text-align: center;
+}
+/* Temas */
+h2.heading2 {
+	color: black;
+	font-size: 2.625em;
+	font-family: "Georgia Pro";
+	text-align: left;
+}
+/* Subtemas */
+h3.heading3 {
+	color: black;
+	font-size: 2.0475em;
+	font-family: "Georgia Pro";
+	text-align: left;
+}
+/* Subtemas */
+h4.heading4 {
+	color: black;
+	font-size: 1.75em;
+	font-family: "Georgia Pro";
+	text-align: left;
+}
+/* Subtemas */
+h5.heading5 {
+	color: black;
+	font-size: 1.4525em;
+	font-family: "Georgia Pro";
+	text-align: left;
+}
+/* Subtemas */
+h6.heading6 {
+	color: black;
+	font-size: 1.1725em;
+	font-family: "Georgia Pro";
+	text-align: left;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Imagenes.                                           */
+/* Fecha de creación: 03-Jun-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+
+/* Para centrar imagenes */
+img.centrarImagen {
+	/* Muestra la imagen como un elemento p*/
+	display: block; 
+	margin-right: auto;
+	margin-left: auto;
+	float: center;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Tablas.                                             */
+/* Fecha de creación: 05-Jun-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+table.tabla {
+	/*Bordes suaves*/
+	border-collapse: collapse;
+	/* De un pixel */
+	border: 1px solid black;
+	/* Color de fondo */
+	background-color: #BFBFBF;
+}
+td.tdAzul {
+	/*Bordes suaves*/
+	border-collapse: collapse;
+	/* De un pixel */
+	border: 1px solid black;
+	/* Color de fondo */
+	background-color: #7398C4;
+	/* Alinear el texto a la izquierda */
+	text-align: left;
+}
+td.tdVerde {
+	/*Bordes suaves*/
+	border-collapse: collapse;
+	/* De un pixel */
+	border: 1px solid black;
+	/* Color de fondo */
+	background-color: #65B5A9;
+	/* Alinear el texto a la izquierda */
+	text-align: left;
+}
+td.tdGris {
+	/*Bordes suaves*/
+	border-collapse: collapse;
+	/* De un pixel */
+	border: 1px solid black;
+	/* Color de fondo */
+	background-color: #D9D9D9;
+	/* Alinear el texto a la izquierda */
+	text-align: left;
+}
+/* Celdas para encabezados */
+th {
+	text-align: center;
+}
+/* Convertir la lista de los temas en un bloque <p> */
+td.listaContenido {
+	display: block;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Clases para el navegador                            */
+/* Fecha de creación: 31-May-2021.                                          */
+/* Autor: Luis Felipe Renovato Avila.                                       */
+/* ------------------------------------------------------------------------ */
+#menu *{ 
+	list-style:none;
+	margin: 0px;
+}
+/* Saltos de linea */		  
+#menu li { 
+	line-height: 125%;
+}	
+/* Color de los links y quitar subrayado */
+#menu li a {
+	color: #000000; 
+	text-decoration: none;
+}
+/* Desaparecer la casilla y establecer el nombre del input */
+#menu input[name="list"] {
+	position: absolute; 
+	left: -10em;
+}
+/* Icono para los elementos no desplegados */
+#menu label:before { 
+	content:"\25B6"; 
+	margin-left: 0px;
+}
+/* Icono para los elementos desplegados */
+#menu input:checked ~ label:before { 
+	content:"\25BC";
+}
+/* Icono para los temas sin subtemas*/
+#menu li a:before { 
+	content:"\2B25"; 
+	/*color:#BFBFBF; */
+} 
+/* Forma de mostrar las etiquetas con clase interior */
+#menu .interior {
+	display: none;
+	margin: 0;
+}
+/* Desplegar la lista desordenada al seleccionarla */
+#menu input:checked ~ ul {
+	display:block;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Hovers                                              */
+/* Fecha de creación: 15-Junio-2021.                                        */
+/* Autor: Luis Felipe Renovato Avila                                        */
+/* ------------------------------------------------------------------------ */
+/* Subrayar los enlaces de la página web al pasar el cursor */
+a:hover {
+	cursor: hand;
+	text-decoration: underline;
+}
+/* Subrayar los enlaces del navegador al pasar el cursor */
+#menu li a:hover {
+	cursor: hand;
+	text-decoration: underline;
+}
+/* Subrayar los enlaces del menú de sitios al pasar el cursor */
+#Sitios a:hover {
+	cursor: hand;
+	text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Este bloque contiene Iframes                                             */
+/* Fecha de creación: 15-Junio-2021                                         */
+/* Autor: Luis Felipe Renovato Avila                                        */
+/* ------------------------------------------------------------------------ */
+/* Para centrar videos */
+iframe {
+	/* Muestra el video como un elemento p*/
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	float: center;
+}
